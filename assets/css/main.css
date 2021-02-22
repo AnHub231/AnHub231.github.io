@@ -2954,13 +2954,13 @@ input, select, textarea {
 				display: flex;
 				position: relative;
 				width: 30%;
-				object-fit: cover;
 			}
 
 				.spotlights > section > .image img {
 					border-radius: 0;
 					display: block;
 					height: 100%;
+					width: 100%;
 					object-fit: cover;
 					overflow-x: hidden;
 				}
@@ -2970,6 +2970,7 @@ input, select, textarea {
 					content: '';
 					display: block;
 					height: 100%;
+					width: 100%;
 					left: 0;
 					opacity: 0;
 					position: absolute;
